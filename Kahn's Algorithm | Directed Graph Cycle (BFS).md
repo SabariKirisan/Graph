@@ -68,6 +68,6 @@ class Solution {
   
              where V = no. of nodes and E = no. of edges. This is a simple BFS algorithm.
 
-- Space complexity : O(N) + O(N) ~ O(2N)
+- Space complexity : O(V) + O(V) = O(2V) ~ O(V)
 
              O(N) for the indegree array, and O(N) for the queue data structure used in BFS(where N = no.of nodes).
